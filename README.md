@@ -7,13 +7,9 @@
 
 An end-to-end energy demand forecasting pipeline that ingests 5-minute interval data from the **Australian Energy Market Operator (AEMO)** public dataset, processes it through a **medallion architecture** on Databricks, and produces hourly demand forecasts for the Victoria (VIC1) region using **XGBoost** which is then visualised in Power BI.
 
----
+## Dashboard
 
-<!-- TODO: Replace the image below with a screenshot of your Power BI dashboard -->
-<!-- Save the screenshot as reports/dashboard_preview.png and uncomment this line -->
-<!-- ![Dashboard Preview](reports/dashboard_preview.png) -->
-
----
+![Dashboard Preview](reports/dashboard_preview.png)
 
 ## Architecture
 
