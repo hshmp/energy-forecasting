@@ -39,14 +39,11 @@ flowchart TD
 
 ## Results
 
-<!-- TODO: Run 4_forecasting.ipynb and fill in the metrics printed to the cell output -->
-<!-- Example of what a filled-in row looks like:  MAE | 182.4 MW -->
-
 | Metric | Value |
 |--------|-------|
-| Forecast target | Hourly average demand (MW) — VIC1 |
-| Training period | 2020 – 2023 |
-| Test period | 2024 (full year holdout, ~8,760 hours) |
+| Forecast target | Hourly average demand (MW) VIC1 |
+| Training period | 2020 → 2023 |
+| Test period | 2024 (full year) |
 | MAE | 353.54 mw |
 | RMSE | 495.51 mw |
 | MAPE | 8.09% |
